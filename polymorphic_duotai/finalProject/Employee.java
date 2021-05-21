@@ -1,0 +1,12 @@
+package polymorphic_duotai.finalProject;
+
+//员工类
+public class Employee/* extends Person*/ {
+    //成员变量
+    String name;
+    int age;
+
+    public final void show() {
+        System.out.println("这个是绝密文件");
+    }
+}
